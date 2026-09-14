@@ -41,7 +41,7 @@ const allowedOrigins =
     "https://svn.exowa.click",
   "https://auto-paper.netlify.app", // Deployed host
   "http://localhost:5173", // Local development
-  // "http://localhost:5174", // Local development
+  "https://exowa-test.netlify.app", // Local development
 ];
 app.use(
   cors({
