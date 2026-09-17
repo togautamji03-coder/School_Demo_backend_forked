@@ -102,7 +102,7 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 // autowakeup freen render server after 14 minits
 const https = require('https');
 
-const RENDER_URL = process.env.RENDER_URL || 'https://school-demo-backend.onrender.com';
+const RENDER_URL = process.env.RENDER_URL || 'https://school-demo-backend-forked.onrender.com;
 const PING_INTERVAL = 14 * 60 * 1000; // 14 minutes in milliseconds
 
 setInterval(() => {
